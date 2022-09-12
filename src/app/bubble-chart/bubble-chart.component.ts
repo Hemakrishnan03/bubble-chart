@@ -36,7 +36,7 @@ export class BubbleChartComponent implements OnInit {
 
   createChart() {
     this.svg = d3
-      .select("#viz")
+      .select("#bubbleChart")
       .append("svg")
       .attr("width", width + margin.left + margin.right)
       .attr("height", height + margin.top + margin.bottom)
